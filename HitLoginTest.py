@@ -66,8 +66,8 @@ class HitPageTest(unittest.TestCase):
         self.assertTrue(myFilesElement.is_displayed(), "Bug - Popup not shown when mouse is over setting icon")
 
     def test_goodLoginByFuncation (self):
-        self.driver.find_element_by_id('username').send_keys("302885041")
-        self.driver.find_element_by_id('password').send_keys("sahar16")
+        self.driver.find_element_by_id('username').send_keys("#") # this is a not right data because this is a a public git
+        self.driver.find_element_by_id('password').send_keys("#") # this is a not right data because this is a a public git
         self.driver.find_element_by_xpath("//input[@value='כניסה - Login']").click()
         self.driver.find_element_by_xpath('//div[text() = "התנתק"]')
         time.sleep(3)

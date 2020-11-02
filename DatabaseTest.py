@@ -3,7 +3,7 @@ import mysql.connector
 doConnector = mysql.connector.connect(
     host="localhost",
     user="Sahar",
-    password="302885041s",
+    password="#", # this is a not a right data because this is a public git
     database="sahar"
 )
 

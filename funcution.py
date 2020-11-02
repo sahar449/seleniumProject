@@ -25,22 +25,8 @@ def maxGrade (grades):
 
 grades = [1,2]
 print(maxGrade(grades))
+#----------------
 
-#--------------------------
-
-# def maxGradeAndName (names, grades):
-#     maxiGrade = maxGradeAndName(grades)
-#     maxi = grades[0]
-#     for i in range(len(maxGradeAndName)):
-#         if maxi < i:
-#             maxi = i
-#             return names[i]
-#
-# names = ["sahar","omer"]
-# grades = [1,2]
-# print(maxGradeAndName(names,grades))
-
-#----------------------
 def is_all_letter_the_same(str_a):
     for i in range(len(str_a)):
         if str_a [i] == str_a[i-1]:
