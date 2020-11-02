@@ -1,0 +1,17 @@
+2020-08-02 13:14:03,969: DEBUG: Finished initializing
+2020-08-02 13:14:03,977: DEBUG: In test_EmptyPassword()
+2020-08-02 13:14:03,977: DEBUG: POST http://127.0.0.1:62764/session/8f3d9da140236bb4adc55c490a39ed3f/element {"using": "css selector", "value": "[id=\"txtPassword\"]"}
+2020-08-02 13:14:04,018: DEBUG: http://127.0.0.1:62764 "POST /session/8f3d9da140236bb4adc55c490a39ed3f/element HTTP/1.1" 200 88
+2020-08-02 13:14:04,019: DEBUG: Finished Request
+2020-08-02 13:14:04,019: DEBUG: POST http://127.0.0.1:62764/session/8f3d9da140236bb4adc55c490a39ed3f/element/a594a962-20b1-4c9a-8128-a2e8853644af/value {"text": "", "value": [], "id": "a594a962-20b1-4c9a-8128-a2e8853644af"}
+2020-08-02 13:14:04,400: DEBUG: http://127.0.0.1:62764 "POST /session/8f3d9da140236bb4adc55c490a39ed3f/element/a594a962-20b1-4c9a-8128-a2e8853644af/value HTTP/1.1" 200 14
+2020-08-02 13:14:04,400: DEBUG: Finished Request
+2020-08-02 13:14:04,401: DEBUG: POST http://127.0.0.1:62764/session/8f3d9da140236bb4adc55c490a39ed3f/element {"using": "css selector", "value": "[id=\"btnSubmit\"]"}
+2020-08-02 13:14:04,554: DEBUG: http://127.0.0.1:62764 "POST /session/8f3d9da140236bb4adc55c490a39ed3f/element HTTP/1.1" 200 88
+2020-08-02 13:14:04,555: DEBUG: Finished Request
+2020-08-02 13:14:04,555: DEBUG: POST http://127.0.0.1:62764/session/8f3d9da140236bb4adc55c490a39ed3f/element/76ec5e11-1c31-4d5f-969d-addd41c27636/click {"id": "76ec5e11-1c31-4d5f-969d-addd41c27636"}
+2020-08-02 13:14:05,331: DEBUG: http://127.0.0.1:62764 "POST /session/8f3d9da140236bb4adc55c490a39ed3f/element/76ec5e11-1c31-4d5f-969d-addd41c27636/click HTTP/1.1" 500 1271
+2020-08-02 13:14:05,332: DEBUG: Finished Request
+2020-08-02 13:14:05,682: DEBUG: DELETE http://127.0.0.1:62764/session/8f3d9da140236bb4adc55c490a39ed3f {}
+2020-08-02 13:14:07,447: DEBUG: http://127.0.0.1:62764 "DELETE /session/8f3d9da140236bb4adc55c490a39ed3f HTTP/1.1" 200 14
+2020-08-02 13:14:07,447: DEBUG: Finished Request

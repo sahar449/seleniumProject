@@ -1,0 +1,34 @@
+2020-10-27 18:57:59,886: DEBUG: Finished initializing
+2020-10-27 18:57:59,907: DEBUG: POST http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f/element {"using": "css selector", "value": "[id=\"txtUserName\"]"}
+2020-10-27 18:57:59,930: DEBUG: http://127.0.0.1:55410 "POST /session/1a5ae370f43ed622578208dbe1a80d3f/element HTTP/1.1" 200 88
+2020-10-27 18:57:59,930: DEBUG: Finished Request
+2020-10-27 18:57:59,931: DEBUG: POST http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f/element/f966fa22-a6c5-4b58-9017-d9e85a91b79a/value {"text": "", "value": [], "id": "f966fa22-a6c5-4b58-9017-d9e85a91b79a"}
+2020-10-27 18:58:00,101: DEBUG: http://127.0.0.1:55410 "POST /session/1a5ae370f43ed622578208dbe1a80d3f/element/f966fa22-a6c5-4b58-9017-d9e85a91b79a/value HTTP/1.1" 200 14
+2020-10-27 18:58:00,102: DEBUG: Finished Request
+2020-10-27 18:58:00,102: DEBUG: POST http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f/element {"using": "css selector", "value": "[id=\"txtPassword\"]"}
+2020-10-27 18:58:00,126: DEBUG: http://127.0.0.1:55410 "POST /session/1a5ae370f43ed622578208dbe1a80d3f/element HTTP/1.1" 200 88
+2020-10-27 18:58:00,127: DEBUG: Finished Request
+2020-10-27 18:58:00,127: DEBUG: POST http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f/element/66fce4f5-071c-43d8-9cd1-49ff49a7520c/value {"text": "", "value": [], "id": "66fce4f5-071c-43d8-9cd1-49ff49a7520c"}
+2020-10-27 18:58:00,203: DEBUG: http://127.0.0.1:55410 "POST /session/1a5ae370f43ed622578208dbe1a80d3f/element/66fce4f5-071c-43d8-9cd1-49ff49a7520c/value HTTP/1.1" 200 14
+2020-10-27 18:58:00,203: DEBUG: Finished Request
+2020-10-27 18:58:00,204: DEBUG: POST http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f/element {"using": "css selector", "value": "[id=\"btnSubmit\"]"}
+2020-10-27 18:58:00,222: DEBUG: http://127.0.0.1:55410 "POST /session/1a5ae370f43ed622578208dbe1a80d3f/element HTTP/1.1" 200 88
+2020-10-27 18:58:00,223: DEBUG: Finished Request
+2020-10-27 18:58:00,223: DEBUG: POST http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f/element/ce7075e8-a189-4e89-9d6f-a9fe83cd1435/click {"id": "ce7075e8-a189-4e89-9d6f-a9fe83cd1435"}
+2020-10-27 18:58:00,479: DEBUG: http://127.0.0.1:55410 "POST /session/1a5ae370f43ed622578208dbe1a80d3f/element/ce7075e8-a189-4e89-9d6f-a9fe83cd1435/click HTTP/1.1" 200 14
+2020-10-27 18:58:00,480: DEBUG: Finished Request
+2020-10-27 18:58:00,480: DEBUG: POST http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f/element {"using": "xpath", "value": "//span [text() = \"\u05d9\u05e9 \u05dc\u05d4\u05d6\u05d9\u05df \u05ea\u05e2\u05d5\u05d3\u05ea \u05d6\u05d4\u05d5\u05ea \u05d0\u05d5 \u05d0\u05d9\u05de\u05d9\u05d9\u05dc\"]"}
+2020-10-27 18:58:00,919: DEBUG: http://127.0.0.1:55410 "POST /session/1a5ae370f43ed622578208dbe1a80d3f/element HTTP/1.1" 200 88
+2020-10-27 18:58:00,920: DEBUG: Finished Request
+2020-10-27 18:58:00,920: DEBUG: GET http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f/element/78da3740-217f-4924-92e2-f9e5137f9359/text {"id": "78da3740-217f-4924-92e2-f9e5137f9359"}
+2020-10-27 18:58:00,958: DEBUG: http://127.0.0.1:55410 "GET /session/1a5ae370f43ed622578208dbe1a80d3f/element/78da3740-217f-4924-92e2-f9e5137f9359/text HTTP/1.1" 200 65
+2020-10-27 18:58:00,958: DEBUG: Finished Request
+2020-10-27 18:58:00,958: DEBUG: POST http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f/element {"using": "xpath", "value": "//span [text() = \"\u05d0\u05d9 \u05d0\u05e4\u05e9\u05e8 \u05dc\u05d4\u05db\u05e0\u05e1 \u05d1\u05dc\u05d9 \u05e1\u05d9\u05e1\u05de\u05d4...\"]"}
+2020-10-27 18:58:01,146: DEBUG: http://127.0.0.1:55410 "POST /session/1a5ae370f43ed622578208dbe1a80d3f/element HTTP/1.1" 200 88
+2020-10-27 18:58:01,147: DEBUG: Finished Request
+2020-10-27 18:58:01,148: DEBUG: GET http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f/element/153c230e-42c5-4bce-bf99-b5e1a23d6cc9/text {"id": "153c230e-42c5-4bce-bf99-b5e1a23d6cc9"}
+2020-10-27 18:58:01,177: DEBUG: http://127.0.0.1:55410 "GET /session/1a5ae370f43ed622578208dbe1a80d3f/element/153c230e-42c5-4bce-bf99-b5e1a23d6cc9/text HTTP/1.1" 200 57
+2020-10-27 18:58:01,178: DEBUG: Finished Request
+2020-10-27 18:58:01,179: DEBUG: DELETE http://127.0.0.1:55410/session/1a5ae370f43ed622578208dbe1a80d3f {}
+2020-10-27 18:58:01,288: DEBUG: http://127.0.0.1:55410 "DELETE /session/1a5ae370f43ed622578208dbe1a80d3f HTTP/1.1" 200 14
+2020-10-27 18:58:01,288: DEBUG: Finished Request
